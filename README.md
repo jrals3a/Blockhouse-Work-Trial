@@ -1,16 +1,20 @@
-# Blockhouse Work Trial Repo
+# Abel Kahsai
+# June 19, 2025
 
-This repository consists of the following components:
+# Smart Order Router Backtest with Cont-Kukanov Model
 
-1. **Benchmarks** - Code for TWAP and VWAP strategies.
-2. **Cost Calculations** - Code for calculating various costs within the rewards component.
-3. **Datasets** - Example datasets that can be used for this process.
+## Overview
+This project implements a backetest for a Smart Order Router (SQR) using the Cont & Kukanov cost model. It simulates market data using Kafka and bnchmarks the results against basic execution strategies.
 
+## Requirements
+- Python 3.8+
+- Kafka 
+- Java (for Kafka)
+- pandas, numpy, kafka-python
 
-## Notes
-
-- You are encouraged to modify or extend the cost components code if needed.
-- Feel free to use any additional data or implement other logic as necessary.
-
-
-
+## Installation
+1. Install Kafka:
+'''bash
+wget https://downloads.apache.org/kafka/3.6.0/kafka_2.13-3.6.0.tgz
+tar -xzf kafka_2.13-3.6.0.tgz
+cd kafka_2.13-3.6.0
