@@ -1,0 +1,24 @@
+{
+    "best_parameters": {
+        "lambda_over": 0.4,
+        "lambda_under": 0.6,
+        "theta_queue": 0.3
+    },
+    "optimized": 
+    {
+        "total_cash": 248750,
+        "avg_fill_px": 49.75
+    },
+    "baselines": 
+    {
+        "best_ask": {"total_cash": 250000, "avg_fill_px": 50.00},
+        "twap": {"total_cash": 251000, "avg_fill_px": 50.20},
+        "vwap": {"total_cash": 249800, "avg_fill_px": 49.96}
+    },
+    "savings_vs_baselines_bps": 
+    {
+        "best_ask": 5.0,
+        "twap": 15.0,
+        "vwap": 4.2
+    }
+}
